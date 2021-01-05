@@ -41,7 +41,7 @@ def turn(board)
   #get input
   input = gets.strip
   #convert input to index
-  
+  index = input_to_index(input)
   #if index is valid
   #  make the move for input
   #else
