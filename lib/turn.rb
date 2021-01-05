@@ -40,7 +40,7 @@ def turn(board)
   #get input
   input = gets.strip
   #above is clear
-
+  index = input_to_index(input)
 
 
 
