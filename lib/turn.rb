@@ -44,12 +44,12 @@ def turn(board)
 
   #if index is valid
   if valid_move?(board, index) == true
-
       #  make the move for input
       move(board, index)
-
   #else
+  else
   #  ask for input again until you get a valid input
+  turn(board)
   #end
 
 
