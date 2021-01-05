@@ -46,7 +46,7 @@ def turn(board)
   if index == true
 
       #  make the move for input
-
+      move(board, index)
 
   #else
   #  ask for input again until you get a valid input
