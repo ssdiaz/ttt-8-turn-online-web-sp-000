@@ -36,10 +36,10 @@ end
 
 
 def turn(board)
-  puts "Please enter 1-9: "
+  puts "Please enter 1-9:"
 
   #get input
-  input = gets.strip
+
   #convert input to index
   index = input_to_index(input)
   #if index is valid
