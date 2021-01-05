@@ -44,10 +44,10 @@ def turn(board)
 
   #if index is valid
   if index == true
-  
+
       #  make the move for input
 
-      
+
   #else
   #  ask for input again until you get a valid input
   #end
