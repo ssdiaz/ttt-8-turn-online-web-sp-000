@@ -1,1 +1,6 @@
 #!/usr/bin/env ruby
+
+# first needs to load in our library
+require_relative '../lib/turn'
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
